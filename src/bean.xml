@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 配置AdminServiceImpl的清单 -->
+	<bean id="School" class="bean"></bean>
+	<bean id="QueryAllSchool" class="servlet.QueryAllSchool"></bean>
+	<!-- <bean id="adminService" class="com.itheima.service.impl.AdminServiceImpl2"></bean> -->
+
+	<bean id="SchoolDao" class="dao.SchoolDao"></bean>
+	<!-- <bean id="adminDao" class="com.itheima.dao.impl.AdminDaoImplOracle"></bean> -->
+
+</beans>
